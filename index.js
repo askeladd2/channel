@@ -87,8 +87,6 @@ function postlinks(){
     console.log('loop ended');
 
 }
-
-
 // scheduling
 
 cron.schedule('31 9 * * *', () => {  // Every day at 9:29 AM
